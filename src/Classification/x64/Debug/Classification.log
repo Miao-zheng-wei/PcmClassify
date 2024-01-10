@@ -1,0 +1,759 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Classification.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  pcMlClassifyApi.cpp
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.h(60): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.h(73): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c++_code\正能项目\classification\classification\mlcommon.h(78): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c++_code\正能项目\classification\classification\mlcommon.h(91): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c++_code\正能项目\classification\classification\mlcommon.h(190): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorbase.h(99): warning C5037: sc::FeatureCalculatorBase<DerivedT,PointT>::calculateFeatures: 类模板的成员的外部定义不得具有默认参数
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\saving.h(111): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\allocator.h(199): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\random.h(82): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(446): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=unsigned int
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(454): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=unsigned int
+          ]
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(152): warning C5037: sc::FeatureCombinerCDHVFast<PointT>::combineFeaturesImpl: 类模板的成员的外部定义不得具有默认参数
+e:\c++_code\正能项目\classification\classification\3rdlibrary\python310\lib\site-packages\numpy\core\include\numpy\npy_1_7_deprecated_api.h(14): warning Msg: Using deprecated NumPy API, disable it with #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(109): warning C4273: “pcMlClassify::TrainSample”: dll 链接不一致
+  e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.h(94): note: 参见“TrainSample”的前一个定义
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(127): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(173): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(174): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(194): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(195): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(216): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(217): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(241): warning C4273: “pcMlClassify::ClassifyData”: dll 链接不一致
+  e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.h(97): note: 参见“ClassifyData”的前一个定义
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(262): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(260): note: 编译 类 模板 成员函数 "void flann::lsh::LshTable<unsigned char>::initialize(size_t)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(360): note: 参见对正在编译的函数 模板 实例化“void flann::lsh::LshTable<unsigned char>::initialize(size_t)”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(358): note: 参见对正在编译的 类 模板 实例化 "flann::lsh::LshTable<unsigned char>" 的引用
+e:\c++_code\正能项目\classification\classification\classification.h(393): warning C4838: 从“size_t”转换到“npy_intp”需要收缩转换
+  e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(280): note: 参见对正在编译的函数 模板 实例化“bool Classify::Classification::runPythonClassification<pcc::LASPoint>(TestParam &,TestResult &,char *,GenericProgressCallback *)”的引用
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(77): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(62): note: 编译 类 模板 成员函数 "sc::FeatureCombinerCDHVFast<PointT>::FeatureCombinerCDHVFast(void)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\classification.h(462): note: 参见对正在编译的函数 模板 实例化“sc::FeatureCombinerCDHVFast<PointT>::FeatureCombinerCDHVFast(void)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\classification.h(462): note: 参见对正在编译的 类 模板 实例化 "sc::FeatureCombinerCDHVFast<PointT>" 的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(146): note: 参见对正在编译的函数 模板 实例化“bool Classify::Classification::getFeature<pcc::LASPoint>(sc::FeatureMatrix &,std::vector<pcc::LASPoint,std::allocator<_Ty>> *,GenericProgressCallback *)”的引用
+          with
+          [
+              _Ty=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(79): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\classification.h(610): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\classification.h(425): note: 参见对正在编译的函数 模板 实例化“void Classify::Classification::voxelLabel2PointLabel<pcc::LASPoint>(int *,int *,std::vector<cloud_point_index_idx,std::allocator<_Ty>> &,std::vector<std::pair<unsigned int,unsigned int>,std::allocator<std::pair<unsigned int,unsigned int>>> &,GenericProgressCallback *)”的引用
+          with
+          [
+              _Ty=cloud_point_index_idx
+          ]
+  e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(280): note: 参见对正在编译的函数 模板 实例化“bool Classify::Classification::runPythonClassification<pcc::LASPoint>(TestParam &,TestResult &,char *,GenericProgressCallback *)”的引用
+e:\c++_code\正能项目\classification\classification\classification.h(536): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\classification.h(439): note: 参见对正在编译的函数 模板 实例化“bool Classify::Classification::writeFeature<pcc::LASPoint>(std::vector<pcc::LASPoint,std::allocator<_Ty>> *,std::vector<cloud_point_index_idx,std::allocator<cloud_point_index_idx>> &,std::vector<std::pair<unsigned int,unsigned int>,std::allocator<std::pair<unsigned int,unsigned int>>> &,float *,std::string,bool,int *,GenericProgressCallback *)”的引用
+          with
+          [
+              _Ty=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(25): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(20): note: 编译 类 模板 成员函数 "sc::FeatureCalculatorDH<PointT>::FeatureCalculatorDH(float,float)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(64): note: 参见对正在编译的函数 模板 实例化“sc::FeatureCalculatorDH<PointT>::FeatureCalculatorDH(float,float)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(64): note: 参见对正在编译的 类 模板 实例化 "sc::FeatureCalculatorDH<PointT>" 的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(62): note: 编译 类 模板 成员函数 "sc::FeatureCombinerCDHVFast<PointT>::FeatureCombinerCDHVFast(void)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\classification.h(462): note: 参见对正在编译的函数 模板 实例化“sc::FeatureCombinerCDHVFast<PointT>::FeatureCombinerCDHVFast(void)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(134): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(112): note: 编译 类 模板 成员函数 "bool FlannKDTree<PointT>::BuildKDTree(std::vector<pcc::LASPoint,std::allocator<_Ty>> &)" 时
+          with
+          [
+              PointT=pcc::LASPoint,
+              _Ty=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(136): note: 参见对正在编译的函数 模板 实例化“bool FlannKDTree<PointT>::BuildKDTree(std::vector<pcc::LASPoint,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              PointT=pcc::LASPoint,
+              _Ty=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(68): note: 参见对正在编译的 类 模板 实例化 "FlannKDTree<PointT>" 的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(135): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(136): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(144): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(146): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(148): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(245): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\voxelgrid.h(226): note: 编译 类 模板 成员函数 "void VoxelGrid<PointT>::VoxelGrid_ApplyFilter(std::vector<pcc::LASPoint,std::allocator<_Ty>> &,std::vector<cloud_point_index_idx,std::allocator<cloud_point_index_idx>> &,std::vector<std::pair<unsigned int,unsigned int>,std::allocator<std::pair<unsigned int,unsigned int>>> &,GenericProgressCallback *)" 时
+          with
+          [
+              PointT=pcc::LASPoint,
+              _Ty=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\classification.h(634): note: 参见对正在编译的函数 模板 实例化“void VoxelGrid<PointT>::VoxelGrid_ApplyFilter(std::vector<pcc::LASPoint,std::allocator<_Ty>> &,std::vector<cloud_point_index_idx,std::allocator<cloud_point_index_idx>> &,std::vector<std::pair<unsigned int,unsigned int>,std::allocator<std::pair<unsigned int,unsigned int>>> &,GenericProgressCallback *)”的引用
+          with
+          [
+              PointT=pcc::LASPoint,
+              _Ty=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\classification.h(630): note: 参见对正在编译的 类 模板 实例化 "VoxelGrid<PointT>" 的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\classification.h(372): note: 参见对正在编译的函数 模板 实例化“void Classify::Classification::getVoxelPoints<pcc::LASPoint>(float,std::vector<pcc::LASPoint,std::allocator<_Ty>> *,std::vector<_Ty,std::allocator<_Ty>> &,std::vector<cloud_point_index_idx,std::allocator<cloud_point_index_idx>> &,std::vector<std::pair<unsigned int,unsigned int>,std::allocator<std::pair<unsigned int,unsigned int>>> &,GenericProgressCallback *)”的引用
+          with
+          [
+              _Ty=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(246): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(247): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(248): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(249): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(250): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(276): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(46): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(45): note: 编译 类 模板 成员函数 "bool sc::FeatureCalculatorDH<PointT>::calculateFeaturesImpl(sc::FeatureMatrix &,GenericProgressCallback *)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorbase.h(104): note: 参见对正在编译的函数 模板 实例化“bool sc::FeatureCalculatorDH<PointT>::calculateFeaturesImpl(sc::FeatureMatrix &,GenericProgressCallback *)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(48): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(45): note: 编译 类 模板 成员函数 "bool sc::FeatureCalculatorCovFast<PointT>::calculateFeaturesImpl(sc::FeatureMatrix &,GenericProgressCallback *)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorbase.h(104): note: 参见对正在编译的函数 模板 实例化“bool sc::FeatureCalculatorCovFast<PointT>::calculateFeaturesImpl(sc::FeatureMatrix &,GenericProgressCallback *)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(63): note: 参见对正在编译的 类 模板 实例化 "sc::FeatureCalculatorCovFast<PointT>" 的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(333): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(306): note: 编译 类 模板 成员函数 "int flann::NNIndex<Distance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<size_t> &,flann::Matrix<float> &,size_t,const flann::SearchParams &) const" 时
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\flann.hpp(140): note: 参见对正在编译的 类 模板 实例化 "flann::NNIndex<Distance>" 的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\flann.hpp(138): note: 编译 类 模板 成员函数 "void flann::Index<flann::L2_Simple<float>>::buildIndex(void)" 时
+  e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(157): note: 参见对正在编译的函数 模板 实例化“void flann::Index<flann::L2_Simple<float>>::buildIndex(void)”的引用
+  e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(105): note: 参见对正在编译的 类 模板 实例化 "flann::Index<flann::L2_Simple<float>>" 的引用
+  e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(97): note: 编译 类 模板 成员函数 "FlannKDTree<PointT>::~FlannKDTree(void)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.cpp(303): note: 参见对正在编译的函数 模板 实例化“FlannKDTree<PointT>::~FlannKDTree(void)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(348): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(90): warning C4244: “=”: 从“unsigned __int64”转换到“float”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(70): note: 编译 类 模板 成员函数 "bool sc::FeatureCalculatorDH<PointT>::calculateFeaturesImpl(int,sc::FeatureVector &)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(64): note: 参见对正在编译的函数 模板 实例化“bool sc::FeatureCalculatorDH<PointT>::calculateFeaturesImpl(int,sc::FeatureVector &)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(98): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(123): warning C4244: “=”: 从“unsigned __int64”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(124): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(131): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(145): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(146): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(79): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(65): note: 编译 类 模板 成员函数 "bool sc::FeatureCalculatorCovFast<PointT>::calculateFeaturesImpl(int,sc::FeatureVector &)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(58): note: 参见对正在编译的函数 模板 实例化“bool sc::FeatureCalculatorCovFast<PointT>::calculateFeaturesImpl(int,sc::FeatureVector &)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(80): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(81): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(95): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(96): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(97): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(198): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(208): warning C4244: “=”: 从“const double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=sc::FeatElemType
+          ]
+  e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(203): note: 编译 类 模板 成员函数 "int FlannKDTree<PointT>::radiusSearch(const PointT &,double,std::vector<int,std::allocator<_Ty>> &,std::vector<sc::FeatElemType,std::allocator<float>> &,unsigned int) const" 时
+          with
+          [
+              PointT=pcc::LASPoint,
+              _Ty=int
+          ]
+  e:\c++_code\正能项目\classification\classification\featurecalculatordh.h(88): note: 参见对正在编译的函数 模板 实例化“int FlannKDTree<PointT>::radiusSearch(const PointT &,double,std::vector<int,std::allocator<_Ty>> &,std::vector<sc::FeatElemType,std::allocator<float>> &,unsigned int) const”的引用
+          with
+          [
+              PointT=pcc::LASPoint,
+              _Ty=int
+          ]
+  e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(80): note: 编译 类 模板 成员函数 "FlannKDTree<PointT>::FlannKDTree(void)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecombinercdhvfast.h(68): note: 参见对正在编译的函数 模板 实例化“FlannKDTree<PointT>::FlannKDTree(void)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(210): warning C4244: “=”: 从“const double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=sc::FeatElemType
+          ]
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(212): warning C4244: “=”: 从“const double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=sc::FeatElemType
+          ]
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(216): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(171): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(166): note: 编译 类 模板 成员函数 "int FlannKDTree<PointT>::nearestKSearch(const PointT &,int,std::vector<int,std::allocator<_Ty>> &,std::vector<sc::FeatElemType,std::allocator<float>> &) const" 时
+          with
+          [
+              PointT=pcc::LASPoint,
+              _Ty=int
+          ]
+  e:\c++_code\正能项目\classification\classification\include\packed\scfeaturecalculatorcovfast.h(75): note: 参见对正在编译的函数 模板 实例化“int FlannKDTree<PointT>::nearestKSearch(const PointT &,int,std::vector<int,std::allocator<_Ty>> &,std::vector<sc::FeatElemType,std::allocator<float>> &) const”的引用
+          with
+          [
+              PointT=pcc::LASPoint,
+              _Ty=int
+          ]
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(179): warning C4244: “=”: 从“const double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=sc::FeatElemType
+          ]
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(181): warning C4244: “=”: 从“const double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=sc::FeatElemType
+          ]
+e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(183): warning C4244: “=”: 从“const double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=sc::FeatElemType
+          ]
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(87): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\voxelgrid.h(79): note: 编译 类 模板 成员函数 "void VoxelGrid<PointT>::GetMaxMin(Array4f &,Array4f &)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\voxelgrid.h(235): note: 参见对正在编译的函数 模板 实例化“void VoxelGrid<PointT>::GetMaxMin(Array4f &,Array4f &)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\voxelgrid.h(49): note: 编译 类 模板 成员函数 "VoxelGrid<PointT>::VoxelGrid(void)" 时
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+  e:\c++_code\正能项目\classification\classification\classification.h(630): note: 参见对正在编译的函数 模板 实例化“VoxelGrid<PointT>::VoxelGrid(void)”的引用
+          with
+          [
+              PointT=pcc::LASPoint
+          ]
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(88): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(89): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(96): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(97): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\voxelgrid.h(98): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(361): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(352): note: 编译 类 模板 成员函数 "void flann::LshIndex<flann::DummyDistance>::buildIndexImpl(void)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(89): note: 参见对正在编译的 类 模板 实例化 "flann::LshIndex<flann::DummyDistance>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(119): note: 参见对正在编译的 类 模板 实例化 "flann::needs_kdtree_distance<flann::LshIndex<flann::DummyDistance>>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(183): note: 参见对正在编译的 类 模板 实例化 "flann::valid_combination<flann::LshIndex,Distance,ElementType>" 的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\flann.hpp(113): note: 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::create_index_by_type<Distance>(const flann::flann_algorithm_t,const flann::Matrix<float> &,const flann::IndexParams &,const Distance &)”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\flann.hpp(101): note: 编译 类 模板 成员函数 "flann::Index<flann::L2_Simple<float>>::Index(const flann::Matrix<float> &,const flann::IndexParams &,Distance)" 时
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+  e:\c++_code\正能项目\classification\classification\include\flannkdtree.h(153): note: 参见对正在编译的函数 模板 实例化“flann::Index<flann::L2_Simple<float>>::Index(const flann::Matrix<float> &,const flann::IndexParams &,Distance)”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(240): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(229): note: 编译 类 模板 成员函数 "int flann::LshIndex<flann::DummyDistance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<size_t> &,flann::Matrix<float> &,size_t,const flann::SearchParams &) const" 时
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(246): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(248): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(255): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(263): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(213): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(212): note: 编译 类 模板 成员函数 "int flann::LshIndex<flann::DummyDistance>::usedMemory(void) const" 时
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(160): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(147): note: 编译 类 模板 成员函数 "void flann::LshIndex<flann::DummyDistance>::addPoints(const flann::Matrix<float> &,float)" 时
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(306): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(298): note: 编译 类 模板 成员函数 "void flann::HierarchicalClusteringIndex<flann::DummyDistance>::buildIndexImpl(void)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(89): note: 参见对正在编译的 类 模板 实例化 "flann::HierarchicalClusteringIndex<flann::DummyDistance>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(119): note: 参见对正在编译的 类 模板 实例化 "flann::needs_kdtree_distance<flann::HierarchicalClusteringIndex<flann::DummyDistance>>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(180): note: 参见对正在编译的 类 模板 实例化 "flann::valid_combination<flann::HierarchicalClusteringIndex,Distance,ElementType>" 的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(309): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_index.h(154): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_index.h(142): note: 编译 类 模板 成员函数 "void flann::KDTreeIndex<flann::DummyDistance>::addPoints(const flann::Matrix<float> &,float)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\composite_index.h(172): note: 参见对正在编译的函数 模板 实例化“void flann::KDTreeIndex<flann::DummyDistance>::addPoints(const flann::Matrix<float> &,float)”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(89): note: 参见对正在编译的 类 模板 实例化 "flann::KDTreeIndex<flann::DummyDistance>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(119): note: 参见对正在编译的 类 模板 实例化 "flann::needs_kdtree_distance<flann::KDTreeIndex<flann::DummyDistance>>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(160): note: 参见对正在编译的 类 模板 实例化 "flann::valid_combination<flann::KDTreeIndex,Distance,ElementType>" 的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(244): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(240): note: 编译 类 模板 成员函数 "void flann::KDTreeSingleIndex<flann::DummyDistance>::buildIndexImpl(void)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(89): note: 参见对正在编译的 类 模板 实例化 "flann::KDTreeSingleIndex<flann::DummyDistance>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(119): note: 参见对正在编译的 类 模板 实例化 "flann::needs_kdtree_distance<flann::KDTreeSingleIndex<flann::DummyDistance>>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(157): note: 参见对正在编译的 类 模板 实例化 "flann::valid_combination<flann::KDTreeSingleIndex,Distance,ElementType>" 的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(248): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(208): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(207): note: 编译 类 模板 成员函数 "int flann::KDTreeSingleIndex<flann::DummyDistance>::usedMemory(void) const" 时
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\result_set.h(744): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\result_set.h(743): note: 编译 类 模板 成员函数 "void flann::UniqueResultSet<DistanceType>::copy(size_t *,DistanceType *,int,bool)" 时
+          with
+          [
+              DistanceType=float
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(246): note: 参见对正在编译的函数 模板 实例化“void flann::UniqueResultSet<DistanceType>::copy(size_t *,DistanceType *,int,bool)”的引用
+          with
+          [
+              DistanceType=float
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\result_set.h(788): note: 参见对正在编译的 类 模板 实例化 "flann::UniqueResultSet<DistanceType>" 的引用
+          with
+          [
+              DistanceType=float
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(240): note: 参见对正在编译的 类 模板 实例化 "flann::KNNUniqueResultSet<float>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(229): note: 编译 类 模板 成员函数 "int flann::LshIndex<flann::DummyDistance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<size_t> &,flann::Matrix<float> &,size_t,const flann::SearchParams &) const" 时
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\result_set.h(807): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\result_set.h(804): note: 编译 类 模板 成员函数 "void flann::KNNUniqueResultSet<float>::addPoint(DistanceType,size_t)" 时
+          with
+          [
+              DistanceType=float
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(195): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(189): note: 编译 类 模板 成员函数 "void flann::lsh::LshTable<float>::add(const std::vector<std::pair<size_t,float *>,std::allocator<_Ty>> &)" 时
+          with
+          [
+              _Ty=std::pair<size_t,float *>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(364): note: 参见对正在编译的函数 模板 实例化“void flann::lsh::LshTable<float>::add(const std::vector<std::pair<size_t,float *>,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _Ty=std::pair<size_t,float *>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(361): note: 参见对正在编译的 类 模板 实例化 "flann::lsh::LshTable<float>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(352): note: 编译 类 模板 成员函数 "void flann::LshIndex<flann::DummyDistance>::buildIndexImpl(void)" 时
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(164): warning C4267: “初始化”: 从“size_t”转换到“flann::lsh::BucketKey”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(162): note: 编译 类 模板 成员函数 "void flann::lsh::LshTable<float>::add(unsigned int,const ElementType *)" 时
+          with
+          [
+              ElementType=float
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(160): note: 参见对正在编译的函数 模板 实例化“void flann::lsh::LshTable<float>::add(unsigned int,const ElementType *)”的引用
+          with
+          [
+              ElementType=float
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(500): warning C4267: “参数”: 从“size_t”转换到“flann::lsh::BucketKey”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(491): note: 编译 类 模板 成员函数 "void flann::LshIndex<flann::DummyDistance>::getNeighbors(const float *,flann::ResultSet<float> &) const" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\lsh_index.h(343): note: 参见对正在编译的函数 模板 实例化“void flann::LshIndex<flann::DummyDistance>::getNeighbors(const float *,flann::ResultSet<float> &) const”的引用
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(617): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(604): note: 编译 类 模板 成员函数 "void flann::HierarchicalClusteringIndex<flann::DummyDistance>::addPointToTree(flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node *,size_t)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(214): note: 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::addPointToTree(flann::HierarchicalClusteringIndex<flann::DummyDistance>::Node *,size_t)”的引用
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(619): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(632): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(987): warning C4267: “=”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(970): note: 编译 类 模板 成员函数 "void flann::KMeansIndex<flann::DummyDistance>::addPointToTree(flann::KMeansIndex<flann::DummyDistance>::Node *,size_t,float)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(230): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::addPointToTree(flann::KMeansIndex<flann::DummyDistance>::Node *,size_t,float)”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(89): note: 参见对正在编译的 类 模板 实例化 "flann::KMeansIndex<flann::DummyDistance>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(119): note: 参见对正在编译的 类 模板 实例化 "flann::needs_kdtree_distance<flann::KMeansIndex<flann::DummyDistance>>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(171): note: 参见对正在编译的 类 模板 实例化 "flann::valid_combination<flann::KMeansIndex,Distance,ElementType>" 的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(991): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(1002): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(677): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(543): note: 编译 类 模板 成员函数 "void flann::KMeansIndex<flann::DummyDistance>::computeClustering(flann::KMeansIndex<flann::DummyDistance>::Node *,int *,int,int)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(344): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::computeClustering(flann::KMeansIndex<flann::DummyDistance>::Node *,int *,int,int)”的引用
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_index.h(689): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_index.h(658): note: 编译 类 模板 成员函数 "void flann::KDTreeIndex<flann::DummyDistance>::addPointToTree(flann::KDTreeIndex<flann::DummyDistance>::Node *,int)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_index.h(154): note: 参见对正在编译的函数 模板 实例化“void flann::KDTreeIndex<flann::DummyDistance>::addPointToTree(flann::KDTreeIndex<flann::DummyDistance>::Node *,int)”的引用
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(577): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(572): note: 编译 类 模板 成员函数 "float flann::KDTreeSingleIndex<flann::DummyDistance>::computeInitialDistances(const float *,std::vector<sc::FeatElemType,std::allocator<_Ty>> &) const" 时
+          with
+          [
+              _Ty=sc::FeatElemType
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(225): note: 参见对正在编译的函数 模板 实例化“float flann::KDTreeSingleIndex<flann::DummyDistance>::computeInitialDistances(const float *,std::vector<sc::FeatElemType,std::allocator<_Ty>> &) const”的引用
+          with
+          [
+              _Ty=sc::FeatElemType
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(581): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(375): warning C4267: “=”: 从“size_t”转换到“T”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(369): note: 编译 类 模板 成员函数 "int flann::NNIndex<Distance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,size_t,const flann::SearchParams &) const" 时
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\flann.hpp(260): note: 参见对正在编译的函数 模板 实例化“int flann::NNIndex<Distance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,size_t,const flann::SearchParams &) const”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(276): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(268): note: 编译 类 模板 成员函数 "void flann::lsh::LshTable<float>::optimize(void)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(198): note: 参见对正在编译的函数 模板 实例化“void flann::lsh::LshTable<float>::optimize(void)”的引用
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(287): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\lsh_table.h(289): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(459): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(450): note: 编译 类 模板 成员函数 "void flann::KDTreeSingleIndex<flann::DummyDistance>::middleSplit(int *,int,int &,int &,float &,const std::vector<flann::KDTreeSingleIndex<flann::DummyDistance>::Interval,std::allocator<_Ty>> &)" 时
+          with
+          [
+              _Ty=flann::KDTreeSingleIndex<flann::DummyDistance>::Interval
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(414): note: 参见对正在编译的函数 模板 实例化“void flann::KDTreeSingleIndex<flann::DummyDistance>::middleSplit(int *,int,int &,int &,float &,const std::vector<flann::KDTreeSingleIndex<flann::DummyDistance>::Interval,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _Ty=flann::KDTreeSingleIndex<flann::DummyDistance>::Interval
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(476): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kdtree_single_index.h(480): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(614): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(602): note: 编译 类 模板 成员函数 "int flann::NNIndex<Distance>::radiusSearch(const flann::Matrix<float> &,std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<sc::FeatElemType,std::allocator<float>>,std::allocator<std::vector<sc::FeatElemType,std::allocator<float>>>> &,float,const flann::SearchParams &) const" 时
+          with
+          [
+              Distance=flann::L2_Simple<float>,
+              _Ty=size_t
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(683): note: 参见对正在编译的函数 模板 实例化“int flann::NNIndex<Distance>::radiusSearch(const flann::Matrix<float> &,std::vector<std::vector<size_t,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<sc::FeatElemType,std::allocator<float>>,std::allocator<std::vector<sc::FeatElemType,std::allocator<float>>>> &,float,const flann::SearchParams &) const”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>,
+              _Ty=size_t
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(632): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(652): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(532): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(285): note: 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::findNeighborsWithRemoved<true>(flann::ResultSet<float> &,const float *,const flann::SearchParams &) const”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(285): note: 参见对正在编译的函数 模板 实例化“void flann::HierarchicalClusteringIndex<flann::DummyDistance>::findNeighborsWithRemoved<true>(flann::ResultSet<float> &,const float *,const flann::SearchParams &) const”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\hierarchical_clustering_index.h(283): note: 编译 类 模板 成员函数 "void flann::HierarchicalClusteringIndex<flann::DummyDistance>::findNeighbors(flann::ResultSet<float> &,const float *,const flann::SearchParams &) const" 时
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\sampling.h(42): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\autotuned_index.h(654): note: 参见对正在编译的函数 模板 实例化“flann::Matrix<float> flann::random_sample<float>(flann::Matrix<float> &,size_t,bool)”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\autotuned_index.h(644): note: 编译 类 模板 成员函数 "float flann::AutotunedIndex<flann::DummyDistance>::estimateSearchParams(flann::SearchParams &)" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\autotuned_index.h(147): note: 参见对正在编译的函数 模板 实例化“float flann::AutotunedIndex<flann::DummyDistance>::estimateSearchParams(flann::SearchParams &)”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(89): note: 参见对正在编译的 类 模板 实例化 "flann::AutotunedIndex<flann::DummyDistance>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(119): note: 参见对正在编译的 类 模板 实例化 "flann::needs_kdtree_distance<flann::AutotunedIndex<flann::DummyDistance>>" 的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\all_indices.h(177): note: 参见对正在编译的 类 模板 实例化 "flann::valid_combination<flann::AutotunedIndex,Distance,ElementType>" 的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\util\sampling.h(49): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(855): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(721): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::findExactNN<true>(flann::KMeansIndex<flann::DummyDistance>::Node *,flann::ResultSet<float> &,const float *) const”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(721): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::findExactNN<true>(flann::KMeansIndex<flann::DummyDistance>::Node *,flann::ResultSet<float> &,const float *) const”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(288): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::findNeighborsWithRemoved<true>(flann::ResultSet<float> &,const float *,const flann::SearchParams &) const”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(288): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::findNeighborsWithRemoved<true>(flann::ResultSet<float> &,const float *,const flann::SearchParams &) const”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(286): note: 编译 类 模板 成员函数 "void flann::KMeansIndex<flann::DummyDistance>::findNeighbors(flann::ResultSet<float> &,const float *,const flann::SearchParams &) const" 时
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\composite_index.h(207): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::findNeighbors(flann::ResultSet<float> &,const float *,const flann::SearchParams &) const”的引用
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(779): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(728): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::findNN<true>(flann::KMeansIndex<flann::DummyDistance>::Node *,flann::ResultSet<float> &,const float *,int &,int,flann::Heap<flann::BranchStruct<flann::KMeansIndex<flann::DummyDistance>::Node *,float>> *) const”的引用
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(728): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<flann::DummyDistance>::findNN<true>(flann::KMeansIndex<flann::DummyDistance>::Node *,flann::ResultSet<float> &,const float *,int &,int,flann::Heap<flann::BranchStruct<flann::KMeansIndex<flann::DummyDistance>::Node *,float>> *) const”的引用
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\nn\ground_truth.h(47): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\nn\ground_truth.h(91): note: 参见对正在编译的函数 模板 实例化“void flann::find_nearest<Distance>(const flann::Matrix<float> &,flann::DummyDistance::ElementType *,size_t *,size_t,size_t,Distance)”的引用
+          with
+          [
+              Distance=flann::DummyDistance
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\autotuned_index.h(666): note: 参见对正在编译的函数 模板 实例化“void flann::compute_ground_truth<Distance>(const flann::Matrix<float> &,const flann::Matrix<float> &,flann::Matrix<size_t> &,int,Distance)”的引用
+          with
+          [
+              Distance=flann::DummyDistance
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\nn\ground_truth.h(60): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\nn\ground_truth.h(65): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\nn\index_testing.h(121): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\nn\index_testing.h(176): note: 参见对正在编译的函数 模板 实例化“float flann::search_with_ground_truth<Index,Distance>(Index &,const flann::Matrix<float> &,const flann::Matrix<float> &,const flann::Matrix<size_t> &,int,int,float &,flann::DummyDistance::ResultType &,const Distance &,int)”的引用
+          with
+          [
+              Index=flann::KMeansIndex<flann::DummyDistance>,
+              Distance=flann::DummyDistance
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\autotuned_index.h(684): note: 参见对正在编译的函数 模板 实例化“float flann::test_index_precision<flann::KMeansIndex<flann::DummyDistance>,Distance>(Index &,const flann::Matrix<float> &,const flann::Matrix<float> &,const flann::Matrix<size_t> &,float,int &,const Distance &,int,int)”的引用
+          with
+          [
+              Distance=flann::DummyDistance,
+              Index=flann::KMeansIndex<flann::DummyDistance>
+          ]
+e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\dist.h(87): warning C4244: “=”: 从“T”转换到“float”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(586): note: 参见对正在编译的函数 模板 实例化“float flann::L2_Simple<float>::operator ()<_Ty,T*>(Iterator1,Iterator2,size_t,float) const”的引用
+          with
+          [
+              _Ty=float *,
+              T=double,
+              Iterator1=float *,
+              Iterator2=double *
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(586): note: 参见对正在编译的函数 模板 实例化“float flann::L2_Simple<float>::operator ()<_Ty,T*>(Iterator1,Iterator2,size_t,float) const”的引用
+          with
+          [
+              _Ty=float *,
+              T=double,
+              Iterator1=float *,
+              Iterator2=double *
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(543): note: 编译 类 模板 成员函数 "void flann::KMeansIndex<Distance>::computeClustering(flann::KMeansIndex<Distance>::Node *,int *,int,int)" 时
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\kmeans_index.h(344): note: 参见对正在编译的函数 模板 实例化“void flann::KMeansIndex<Distance>::computeClustering(flann::KMeansIndex<Distance>::Node *,int *,int,int)”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>
+          ]
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xutility(2414): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xutility(2434): note: 参见对正在编译的函数 模板 实例化“_OutIt std::_Copy_unchecked1<_InIt,_OutIt>(_InIt,_InIt,_OutIt,std::_General_ptr_iterator_tag)”的引用
+          with
+          [
+              _OutIt=int *,
+              _InIt=unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vector(1372): note: 参见对正在编译的函数 模板 实例化“_OutIt *std::_Copy_unchecked<_Iter,int*>(_InIt,_InIt,_OutIt)”的引用
+          with
+          [
+              _OutIt=int *,
+              _Iter=unsigned __int64 *,
+              _InIt=unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vector(1390): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::_Assign_range<unsigned __int64*>(_Iter,_Iter,std::forward_iterator_tag)”的引用
+          with
+          [
+              _Ty=int,
+              _Iter=unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vector(1390): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::_Assign_range<unsigned __int64*>(_Iter,_Iter,std::forward_iterator_tag)”的引用
+          with
+          [
+              _Ty=int,
+              _Iter=unsigned __int64 *
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(687): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::assign<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>,void>(_Iter,_Iter)”的引用
+          with
+          [
+              _Ty=int,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(687): note: 参见对正在编译的函数 模板 实例化“void std::vector<int,std::allocator<_Ty>>::assign<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>,void>(_Iter,_Iter)”的引用
+          with
+          [
+              _Ty=int,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<size_t>>>
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\algorithms\nn_index.h(681): note: 编译 类 模板 成员函数 "int flann::NNIndex<Distance>::radiusSearch(const flann::Matrix<float> &,std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<sc::FeatElemType,std::allocator<float>>,std::allocator<std::vector<sc::FeatElemType,std::allocator<float>>>> &,float,const flann::SearchParams &) const" 时
+          with
+          [
+              Distance=flann::L2_Simple<float>,
+              _Ty=int
+          ]
+  e:\c++_code\正能项目\classification\classification\3rdlibrary\flann\flann.hpp(367): note: 参见对正在编译的函数 模板 实例化“int flann::NNIndex<Distance>::radiusSearch(const flann::Matrix<float> &,std::vector<std::vector<int,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> &,std::vector<std::vector<sc::FeatElemType,std::allocator<float>>,std::allocator<std::vector<sc::FeatElemType,std::allocator<float>>>> &,float,const flann::SearchParams &) const”的引用
+          with
+          [
+              Distance=flann::L2_Simple<float>,
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xmemory0(881): warning C4267: “初始化”: 从“size_t”转换到“_Objty”，可能丢失数据
+          with
+          [
+              _Objty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xmemory(164): note: 参见对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,size_t&>(_Alloc &,_Objty *const ,size_t &)”的引用
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xmemory(164): note: 参见对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,size_t&>(_Alloc &,_Objty *const ,size_t &)”的引用
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xmemory(190): note: 参见对正在编译的函数 模板 实例化“void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<_Ty&>(_Ty &)”的引用
+          with
+          [
+              _FwdIt=int *,
+              _Alloc=std::allocator<int>,
+              _Ty=unsigned __int64
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xmemory(190): note: 参见对正在编译的函数 模板 实例化“void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<_Ty&>(_Ty &)”的引用
+          with
+          [
+              _FwdIt=int *,
+              _Alloc=std::allocator<int>,
+              _Ty=unsigned __int64
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\xmemory(217): note: 参见对正在编译的函数 模板 实例化“_FwdIt std::_Uninitialized_copy_al_unchecked<_Ty*,int*,_Alloc>(_InIt,const _InIt,const _FwdIt,_Alloc &,std::_General_ptr_iterator_tag,std::_Any_tag)”的引用
+          with
+          [
+              _FwdIt=int *,
+              _Ty=unsigned __int64,
+              _Alloc=std::allocator<int>,
+              _InIt=unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vector(1823): note: 参见对正在编译的函数 模板 实例化“_FwdIt *std::_Uninitialized_copy<_Iter,int*,std::allocator<_Ty>>(const _InIt,const _InIt,_FwdIt,_Alloc &)”的引用
+          with
+          [
+              _FwdIt=int *,
+              _Iter=unsigned __int64 *,
+              _Ty=int,
+              _InIt=unsigned __int64 *,
+              _Alloc=std::allocator<int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vector(1366): note: 参见对正在编译的函数 模板 实例化“int *std::vector<int,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,int *)”的引用
+          with
+          [
+              _Ty=int,
+              _Iter=unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\vector(1366): note: 参见对正在编译的函数 模板 实例化“int *std::vector<int,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,int *)”的引用
+          with
+          [
+              _Ty=int,
+              _Iter=unsigned __int64 *
+          ]
+  NormalizedProgress.cpp
+  PythonUtil.cpp
+e:\c++_code\正能项目\classification\classification\3rdlibrary\python310\lib\site-packages\numpy\core\include\numpy\npy_1_7_deprecated_api.h(14): warning Msg: Using deprecated NumPy API, disable it with #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
+  源.cpp
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.h(60): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c++_code\正能项目\classification\classification\pcmlclassifyapi.h(73): warning C4305: “初始化”: 从“double”到“float”截断
+e:\c++_code\正能项目\classification\classification\源.cpp(86): warning C4305: “=”: 从“double”到“float”截断
+e:\c++_code\正能项目\classification\classification\源.cpp(122): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\c++_code\正能项目\classification\classification\源.cpp(132): warning C4305: “=”: 从“double”到“float”截断
+  正在生成代码...
+e:\c++_code\正能项目\classification\classification\源.cpp(59): warning C4715: “RFClassify”: 不是所有的控件路径都返回值
+e:\c++_code\正能项目\classification\classification\源.cpp(94): warning C4715: “NNClassify”: 不是所有的控件路径都返回值
+e:\c++_code\正能项目\classification\classification\源.cpp(142): warning C4715: “LGClassify”: 不是所有的控件路径都返回值
+    正在创建库 E:\c++_code\正能项目\Classification\x64\Debug\PcmClassify.lib 和对象 E:\c++_code\正能项目\Classification\x64\Debug\PcmClassify.exp
+源.obj : warning LNK4217: 本地定义的符号 TrainSample 在函数 "bool __cdecl LGClassify(char *)" (?LGClassify@@YA_NPEAD@Z) 中导入
+源.obj : warning LNK4217: 本地定义的符号 ClassifyData 在函数 "bool __cdecl Classify(char *)" (?Classify@@YA_NPEAD@Z) 中导入
+  Classification.vcxproj -> E:\c++_code\正能项目\Classification\x64\Debug\PcmClassify.dll
